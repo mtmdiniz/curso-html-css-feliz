@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
     background-image: url(); /* ../ para sair da pasta */
     background-repeat: no-repeat;
     background-size: 100%;
@@ -8,17 +8,17 @@
     padding-left: 91px;
 }
 
-.banner .wrapper {
+.main-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 649px;
 }
 
-.banner .box {
+.main-banner .box {
     margin-bottom: 38px;
 }
 
-.banner .btnav {
+.main-banner .btnav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
