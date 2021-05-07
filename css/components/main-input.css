@@ -1,0 +1,9 @@
+.main-input {
+    width: 1200px;
+    height: 35px;
+    border: 5px solid #000;
+}
+
+.main-input.-mensage {
+    height: 318px;
+}

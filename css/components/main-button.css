@@ -16,3 +16,10 @@
     transform: scale(0.8);
     border-radius:50%;
 }
+
+.main-button.-contatos {
+    width: 1210px;
+    height: 60px;
+    border-radius: 0%;
+    margin-top: 40px;
+}
