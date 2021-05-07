@@ -19,3 +19,11 @@
     border-bottom: 10px solid #000;
     padding-bottom: 0;
 }
+
+.main-section.-footer {
+    display: block;
+    background-color: #000;
+    height: 80px;
+    padding: 0;
+    border: 0;
+}
