@@ -32,10 +32,10 @@
     <header class="main-header">
         <h1 class="logo">ME</h1>
         <nav class="navegation">
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
-            <a class="main-action" href="" lang="en">Skills</a>
+            <a class="main-action" href="#proj">Projetos</a>
+            <a class="main-action" href="#sobre">Sobre</a>
+            <a class="main-action" href="#contatos">Contatos</a>
+            <a class="main-action" href="#skills" lang="en">Skills</a>
             <a class="main-button" href="" lang="en">Download CV</a>
         </nav>
     </header>
@@ -49,12 +49,12 @@
 
             <div class="btnav">
                 <a class="main-button" href="" lang="en">Download CV</a>
-                <a class="main-button" href="">Contatos</a>
+                <a class="main-button" href="#contatos">Contatos</a>
             </div>
         </div>
     </section>
 
-    <section class="main-section">
+    <a id="skills"><section class="main-section">
         <h2 class="main-title -second">Skills</h2>
 
         <div class="wrapper-skill">
@@ -91,9 +91,9 @@
                 </div>
             </article>
         </div>
-    </section>
+    </section></a>
 
-    <section class="main-section -project">
+    <a id="proj"><section class="main-section -project">
         <h1 class="main-title -second">Projetos</h1>
 
         <div class="wrapper-project">
@@ -113,11 +113,11 @@
                 </figure>
             </a>
         </div>
-    </section>
-    <section class="main-section -sobre">
+    </section></a>
+    <a id="sobre"><section class="main-section -sobre">
         <h2 class="main-title -second">Sobre</h2>
 
-        <p class="main-description">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
+        <p class="main-description"></p>
         <!--
             <button class="button-arrow -right"><span class="content">Voltar</span></button>
 
@@ -130,30 +130,34 @@
 
             <button class="button-arrow -left"><span class="content">Avançar</span></button>
         -->
-    </section>
-    <section class="main-section -contatos">
+    </section></a>
+    <a id="contatos"><form class="main-section -contatos">
         <h2 class="main-title -second">Contatos</h2>
 
-        <h3 class="main-subtitle -contatos">Nome</h3>
-        <input type="text" class="main-input">
+        <label class="main-subtitle -contatos" for="name">Nome</label>
+        <input type="text" class="main-input" id="name" required>
 
-        <h3 class="main-subtitle -contatos">Email</h3>
-        <input type="text" class="main-input">
+        <label class="main-subtitle -contatos" for="email">Email</label>
+        <input type="email" class="main-input" id="email" required>
 
-        <h3 class="main-subtitle -contatos">Mensagem</h3>
-        <input type="text" class="main-input -mensage">
+        <label class="main-subtitle -contatos" for="mensage">Mensagem</label>
+        <textarea type="text" class="main-input -mensage" id="mensage" required></textarea>
 
-        <button class="main-button -contatos">Enviar</button>
-    </section>
-    <section class="main-section -footer">
+        <button type="submit" class="main-button -contatos">Enviar</button>
+    </form></a>
+    <footer class="main-section -footer">
         <div class="wrapper-footer">
             <figure>
-                <img class="logo -socials" src="/assets/img/instagram.png" alt="Logo Instagram">
+                <a href="">
+                    <img class="logo -socials" src="/assets/img/instagram.png" alt="Logo Instagram">
+                </a>
             </figure>
             <figure>
-                <img class="logo -socials" src="/assets/img/linkedin.png" alt="Logo Linkedin">
+                <a href="https://www.linkedin.com/in/marcos-eduardo-teixeira-de-melo-diniz-2b75b1186" target="_blank">
+                    <img class="logo -socials" src="/assets/img/linkedin.png" alt="Logo Linkedin">
+                </a>
             </figure>
         </div>
-    </section>
+    </footer>
 </body>
 </html>
